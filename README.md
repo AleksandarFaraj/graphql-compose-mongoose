@@ -77,7 +77,7 @@ const UserSchema = new mongoose.Schema({
   },
   gender: { // enum field with values
     type: String,
-    enum: ['male', 'female', 'ladyboy'],
+    enum: ['male', 'female', 'other'],
   },
   someMixed: {
     type: mongoose.Schema.Types.Mixed,
